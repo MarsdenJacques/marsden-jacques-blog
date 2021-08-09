@@ -10,7 +10,7 @@ export default function Home() { //eventually add itch.io (after I publish)
     <div className = {styles.main}>
       <section className = {styles.transparent}>
         <div className = {styles.blurb}>
-        <p>“It's a dangerous business, Frodo, going out your door. You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to.”
+        <p>&ldquo;It&apos;s a dangerous business, Frodo, going out your door. You step onto the road, and if you don't keep your feet, there&apos;s no knowing where you might be swept off to.&rdquo;
           <br/>
           ― J.R.R. Tolkien, The Lord of the Rings
         </p>
@@ -51,7 +51,7 @@ export default function Home() { //eventually add itch.io (after I publish)
         <div className = {styles.transparentSection}>
           <h2 className = {styles.sectionHeader}>Researcher</h2>
           <p>
-            I'm a published researcher focusing on algorithms and combinatorics in Computer Science....
+            I&apos;m a published researcher focusing on algorithms and combinatorics in Computer Science....
           </p>
         </div>
         <div className = {styles.transparentSection}>
@@ -62,13 +62,13 @@ export default function Home() { //eventually add itch.io (after I publish)
           </p>
         </div>
         <div className = {styles.transparentSection + ' ' + styles.meImage}>
-          <Image src = {meOne}/>
+          <Image src = {meOne} alt = 'Me with a bucket hat on.'/>
         </div>
         <div className = {styles.transparentSection + ' ' + styles.meImage}>
-          <Image src = {meTwo}/>
+          <Image src = {meTwo} alt = 'Me with a different hat on.'/>
         </div>
         <div className = {styles.transparentSection + ' ' + styles.meImage}>
-          <Image src = {meGoats}/>
+          <Image src = {meGoats} alt = 'Me feeding goats.'/>
         </div>
       </section>
     </div>
