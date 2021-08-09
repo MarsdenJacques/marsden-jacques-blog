@@ -10,7 +10,7 @@ export default function Home() { //eventually add itch.io (after I publish)
     <div className = {styles.main}>
       <section className = {styles.transparent}>
         <div className = {styles.blurb}>
-        <p>&ldquo;It&apos;s a dangerous business, Frodo, going out your door. You step onto the road, and if you don't keep your feet, there&apos;s no knowing where you might be swept off to.&rdquo;
+        <p>&ldquo;It&apos;s a dangerous business, Frodo, going out your door. You step onto the road, and if you don&apos;t keep your feet, there&apos;s no knowing where you might be swept off to.&rdquo;
           <br/>
           ― J.R.R. Tolkien, The Lord of the Rings
         </p>
@@ -22,7 +22,7 @@ export default function Home() { //eventually add itch.io (after I publish)
           <h2 className = {styles.sectionHeader}>Hosted Projects and Commisions</h2>
           <ul className = {styles.portfolioList}>
             <h3>Games/oddities</h3>
-            <li><a href='https://marsdenjacques.github.io/2d-game-of-life/' className = {styles.siteLink}>2d Conway's Game of Life</a></li>
+            <li><a href='https://marsdenjacques.github.io/2d-game-of-life/' className = {styles.siteLink}>2d Conway&apos;s Game of Life</a></li>
             <h3>Personal or commissioned websites</h3>
             <li><a href='https://marsdensqlnotesapp.netlify.app' className = {styles.siteLink}>https://marsdensqlnotesapp.netlify.app</a><p>Todo list and notes web app</p></li>
             <li><a href='https://hiroshimaartcenter.netlify.app/' className = {styles.siteLink}>https://hiroshimaartcenter.netlify.app/</a><p>Hiroshima Art Center home page</p></li>

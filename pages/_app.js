@@ -26,8 +26,8 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
         <section className = {styles.footer}>
           <div alt='socials' id='socials' className  = {styles.socials}>
-            <div className = {styles.socialLink}><a href='https://github.com/MarsdenJacques' target = '_blank'><Image src={github}></Image></a></div>
-            <div className = {styles.socialLink}><a href='https://www.linkedin.com/in/marsdenjacques/' target = '_blank'><Image src={linkedin}></Image></a></div>
+            <div className = {styles.socialLink}><a href='https://github.com/MarsdenJacques' target = '_blank' rel='noopener noreferrer'><Image src={github}></Image></a></div>
+            <div className = {styles.socialLink}><a href='https://www.linkedin.com/in/marsdenjacques/' target = '_blank' rel='noopener noreferrer'><Image src={linkedin}></Image></a></div>
           </div>
         </section>
       </div>
